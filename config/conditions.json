@@ -1,0 +1,93 @@
+{
+
+  "carrier_conditions": [
+    {
+      "flag": "is_active_insurance",
+      "description": "Carrier has active insurance",
+      "active": 1
+    },
+    {
+      "flag": "no_out_of_service_order",
+      "description": "Carrier has no out of service orders",
+      "active": 1
+    },
+    {
+      "flag": "is_operating_status_active",
+      "description": "Carrier has active operating status",
+      "active": 1
+    },
+    {
+      "flag": "is_satisfactory_safety_rating",
+      "description": "Carrier has satisfactory safety rating",
+      "active": 1
+    },
+    {
+      "flag": "has_valid_authority",
+      "description": "Carrier has valid operating authority",
+      "active": 1
+    },
+    {
+      "flag": "no_pending_revocation",
+      "description": "Carrier has no pending authority revocation",
+      "active": 1
+    }
+  ],
+  
+  "phone_conditions": [
+    {
+      "flag": "found_phone_flagged_for_fraud",
+      "description": "The phone number is flagged for fraud",
+      "active": 1
+    },
+    {
+      "flag": "found_phone_of_carrier_with_identity_alert",
+      "description": "The phone number is associated with a carrier with an identity alert",
+      "active": 1
+    },
+    {
+      "flag": "found_phone_of_dispatcher_service",
+      "description": "The phone number is associated with a dispatcher service",
+      "active": 1
+    },
+    {
+      "flag": "found_phone_associated_with_multiple_carriers",
+      "description": "The phone number is associated with multiple carriers",
+      "active": 1
+    },
+    {
+      "flag": "found_phone_associated_with_one_carrier_and_failing_rule_assessment",
+      "description": "The phone number is associated with a carrier that fails rule assessment",
+      "active": 1
+    },
+    {
+      "flag": "found_phone_associated_with_one_carrier_and_incomplete_rule_assessment",
+      "description": "The phone number is associated with a carrier with incomplete rule assessment",
+      "active": 1
+    },
+    {
+      "flag": "found_phone_associated_with_one_carrier_and_not_in_brokers_network",
+      "description": "The phone number is associated with a carrier not in broker's network",
+      "active": 1
+    },
+    {
+      "flag": "found_phone_of_blocked_user_or_company",
+      "description": "The phone number belongs to a blocked user or company",
+      "active": 1
+    },
+    {
+      "flag": "caller_id_spoofing_attempt",
+      "description": "The phone number is associated with caller ID spoofing",
+      "active": 1
+    },
+    {
+      "flag": "known_phone_not_belonging_to_carrier",
+      "description": "Known phone number that doesn't belong to a carrier",
+      "active": 1
+    },
+    {
+      "flag": "phone_number_not_known_and_high_risk",
+      "description": "Unknown phone number that is considered high risk",
+      "active": 1
+    }
+  ]
+} 
